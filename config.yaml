@@ -1,0 +1,11 @@
+# API Bridge 配置
+# CSU DeepSeek (OpenAI 兼容) → Anthropic 格式桥接
+
+upstream:
+  url: "https://api.chat.csu.edu.cn/v1/chat/completions"
+  key: "YOUR_API_KEY"
+  model: "DeepSeek-V4-Flash"
+
+bridge:
+  port: 4000
+  host: "0.0.0.0"
