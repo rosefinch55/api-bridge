@@ -1,5 +1,5 @@
-# API Bridge 配置
-# CSU DeepSeek (OpenAI 兼容) → Anthropic 格式桥接
+# API Bridge 配置（公开版）
+# 单上游，OpenAI 兼容协议
 
 upstream:
   url: "https://api.chat.csu.edu.cn/v1/chat/completions"
@@ -8,4 +8,3 @@ upstream:
 
 bridge:
   port: 4000
-  host: "0.0.0.0"
